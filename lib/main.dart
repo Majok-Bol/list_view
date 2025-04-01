@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('List View demo'),centerTitle: true,),
+        appBar: AppBar(title: Text('List View demo',style: TextStyle(color: Colors.red[600],fontSize: 25),),centerTitle: true,),
       ),
     );
   }
