@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget{
                 ListTile(leading:Icon(Icons.photo_album),title: Text('Album'),),
                 ListTile(leading:Icon(Icons.camera),title: Text('Camera'),),
                 ListTile(leading:Icon(Icons.edit),title: Text('Edit'),),
+                ListTile(leading:Icon(Icons.delete),title: Text('Delete'),),
               ],)
             ),
           ),
